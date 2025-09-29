@@ -44,7 +44,7 @@ public class singlyLinkedList{
             addNode(data);
             return;
         }
-        for(int ind = 1;ind<pos-1;ind++){
+        for(int ind = 0;ind<pos-1;ind++){
             ptr=ptr.next;
         }
         newNode.next=ptr.next;
@@ -68,7 +68,7 @@ public class singlyLinkedList{
             return;
         }
         Node ptr=head;
-        for(int ind = 1 ; ind<pos-1 ; ind++){
+        for(int ind = 0 ; ind<pos-1 ; ind++){
             ptr=ptr.next;
         }
         ptr.next=ptr.next.next;
@@ -144,3 +144,4 @@ public class singlyLinkedList{
     
    
 }
+
