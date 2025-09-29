@@ -63,7 +63,7 @@ public class singlyLinkedList{
             noOfNode--;
             return;
         }
-        if(pos<0||pos>noOfNode){
+        if(pos<0||pos>=noOfNode){
             System.out.print("Invalid position");
             return;
         }
@@ -144,4 +144,5 @@ public class singlyLinkedList{
     
    
 }
+
 
